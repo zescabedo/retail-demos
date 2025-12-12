@@ -56,8 +56,7 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
   const isTopLevelPage = isNavLevel(fields, 1);
 
   const hasChildren = !!fields.Children?.length;
-  // Always show logo for root items (using Henry Schein logo)
-  const isLogoRootItem = isRootItem;
+  const isLogoRootItem = isRootItem && logoSrc;
   const hasDropdownMenu = hasChildren && isTopLevelPage;
 
   const clickHandler = (event: React.MouseEvent<HTMLElement>) => {
@@ -95,7 +94,7 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
           field={getLinkField(fields)}
           editable={page.mode.isEditing}
           onClick={clickHandler}
-          className="hover:text-accent text-foreground whitespace-nowrap transition-colors"
+          className="hover:text-foreground-light whitespace-nowrap transition-colors"
         >
           {getLinkContent(fields)}
         </Link>
@@ -174,8 +173,7 @@ export const Default = ({ params, fields }: NavigationProps) => {
   const preparedFields = prepareFields(fields, !isSimpleLayout);
   const rootItem = Object.values(preparedFields).find((item) => isNavRootItem(item));
   const logoSrc = extractMediaUrl(logoImage);
-  // Always show logo for root items (using Henry Schein logo)
-  const hasLogoRootItem = !!rootItem;
+  const hasLogoRootItem = rootItem && logoSrc;
 
   const navigationItems = Object.values(preparedFields)
     .filter((item): item is NavItemFields => !!item)
@@ -238,7 +236,7 @@ export const Default = ({ params, fields }: NavigationProps) => {
         <ul
           role="menubar"
           className={clsx(
-            'container flex flex-col items-center justify-center gap-x-6 gap-y-4 py-6 text-base font-medium lg:flex-row lg:justify-start',
+            'container flex flex-col items-center justify-center gap-x-8 gap-y-4 py-6 text-lg lg:flex-row xl:gap-x-16',
             isSimpleLayout && !hasLogoRootItem && 'lg:justify-end'
           )}
         >

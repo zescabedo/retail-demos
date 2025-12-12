@@ -1,6 +1,7 @@
 'use client';
 
 import React, { JSX, useState } from 'react';
+import Image from 'next/image';
 import { ComponentProps } from '@/lib/component-props';
 import { Placeholder, Link, LinkField } from '@sitecore-content-sdk/nextjs';
 import { SearchBar } from '@/components/non-sitecore/SearchBar';
@@ -24,13 +25,25 @@ export const Default = (props: HeaderProps): JSX.Element => {
         {/* Main Header Row */}
         <div className="flex items-center gap-2 md:gap-6">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <Placeholder name={`header-left-${DynamicPlaceholderId}`} rendering={props.rendering} />
+          <div className="flex flex-shrink-0 items-center gap-3">
+            <div className="flex items-center gap-3">
+              <Image
+                src="/images/henry-schein-logo.svg"
+                alt="Henry Schein Dental"
+                width={200}
+                height={60}
+                className="h-auto max-h-[60px] w-auto"
+                priority
+              />
+              <div className="h-10 w-px bg-gray-300"></div>
+            </div>
           </div>
 
           {/* Search Bar - Hidden on mobile, shown on md+ */}
-          <div className="hidden max-w-xl flex-1 md:flex">
-            <SearchBar showCheckbox={true} />
+          <div className="hidden max-w-2xl flex-1 md:flex md:justify-center">
+            <div className="w-full max-w-xl">
+              <SearchBar showCheckbox={true} />
+            </div>
           </div>
 
           {/* Right Side Icons */}
