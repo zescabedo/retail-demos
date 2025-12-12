@@ -59,33 +59,71 @@ export const Default = (props: FeaturesProps) => {
 
   return (
     <FeatureWrapper props={props}>
-      <div className="container grid grid-cols-1 py-20 lg:grid-cols-[1fr_2fr] lg:gap-10">
-        <div className="mb-20 lg:mb-0">
-          <h2 className="inline-block max-w-md font-bold max-lg:text-[42px]">
-            <Text field={featureSectionTitle.jsonValue} />
-            {!hideAccentLine && <AccentLine className="w-full max-w-xs" />}
-          </h2>
-        </div>
-        <div className="grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
-          {results.map((item, index) => {
-            const title = item.featureTitle.jsonValue;
-            const description = item.featureDescription.jsonValue;
-            const link = item.featureLink.jsonValue;
-            return (
-              <div className="flex flex-col" key={index}>
-                {/* Title, Link and Description */}
-                <div className="mb-5 text-2xl font-bold">
-                  <Text field={title} />
+      {/* Thin, clean strip similar to Henry Schein metrics bar */}
+      <div className="bg-color-background border border-y">
+        <div className="container py-6 md:py-8">
+          {/* Optional section label above the strip */}
+          {featureSectionTitle?.jsonValue?.value && (
+            <div className="mb-4 flex justify-center">
+              <h2 className="text-foreground-muted inline-flex flex-col items-center text-xs font-semibold tracking-[0.25em] uppercase">
+                <Text field={featureSectionTitle.jsonValue} />
+                {!hideAccentLine && <AccentLine className="mt-2 h-1 w-24" />}
+              </h2>
+            </div>
+          )}
+
+          <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center md:gap-12 lg:gap-20">
+            {results.map((item, index) => {
+              const title = item.featureTitle.jsonValue;
+              const description = item.featureDescription.jsonValue;
+              const link = item.featureLink.jsonValue;
+              const imageField = item.featureImage.jsonValue;
+
+              return (
+                <div className="flex items-center justify-center gap-6 md:gap-8" key={index}>
+                  {/* Icon + text block */}
+                  <div className="flex items-center gap-3 md:gap-4">
+                    {/* Icon */}
+                    {imageField?.value?.src && (
+                      <div className="flex h-8 w-8 items-center justify-center md:h-9 md:w-9">
+                        <Image field={imageField} className="h-full w-full object-contain" />
+                      </div>
+                    )}
+
+                    {/* Text */}
+                    <div className="flex flex-col items-center md:items-start">
+                      {/* Bold primary metric line */}
+                      <div className="text-accent text-center text-sm font-extrabold tracking-wide uppercase md:text-base">
+                        <Text field={title} />
+                      </div>
+
+                      {/* Optional supporting copy below */}
+                      {description?.value && (
+                        <div className="text-foreground-muted mt-1 text-center text-xs md:text-left md:text-sm">
+                          <Text field={description} />
+                        </div>
+                      )}
+
+                      {/* Optional link (kept subtle, below metric text) */}
+                      {link?.value?.href && (
+                        <div className="mt-1 hidden md:block">
+                          <Link
+                            field={link}
+                            className="text-accent text-xs font-semibold underline-offset-2 hover:underline"
+                          />
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Vertical divider between items (desktop only) */}
+                  {index < results.length - 1 && (
+                    <div className="bg-border hidden h-10 w-px md:block" aria-hidden="true" />
+                  )}
                 </div>
-                <div className="text-foreground mb-3.5 flex-auto leading-7">
-                  <Text field={description} />
-                </div>
-                <div>
-                  <Link field={link} className="arrow-btn" />
-                </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
     </FeatureWrapper>
