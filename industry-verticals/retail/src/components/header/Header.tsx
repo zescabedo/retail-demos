@@ -30,12 +30,12 @@ export const Default = (props: HeaderProps): JSX.Element => {
               <Image
                 src="/images/henry-schein-logo.svg"
                 alt="Henry Schein Dental"
-                width={200}
-                height={60}
-                className="h-auto max-h-[60px] w-auto"
+                width={400}
+                height={120}
+                className="!h-[120px] !w-[400px]"
                 priority
               />
-              <div className="h-10 w-px bg-gray-300"></div>
+              <div className="h-16 w-px bg-gray-300"></div>
             </div>
           </div>
 

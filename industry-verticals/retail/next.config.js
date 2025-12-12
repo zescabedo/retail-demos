@@ -37,7 +37,25 @@ const nextConfig = {
         hostname: 'xmc-*.**',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'assets.henryschein.com',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.sitecorecloud.io',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.sitecore.com',
+        port: '',
+      },
     ],
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 
   async rewrites() {

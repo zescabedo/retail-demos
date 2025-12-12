@@ -7,6 +7,7 @@ import { Placeholder, Field, Page, ImageField } from '@sitecore-content-sdk/next
 import Scripts from 'src/Scripts';
 import SitecoreStyles from 'src/components/content-sdk/SitecoreStyles';
 import { DesignLibraryLayout } from './DesignLibraryLayout';
+import { SearchPageWrapper } from 'src/components/search/SearchPageWrapper';
 
 interface LayoutProps {
   page: Page;
@@ -63,9 +64,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
               </div>
             </header>
             <main>
-              <div id="content">
-                {route && <Placeholder name="headless-main" rendering={route} />}
-              </div>
+              <div id="content">{route && <SearchPageWrapper route={route} fields={fields} />}</div>
             </main>
             <footer>
               <div id="footer">
