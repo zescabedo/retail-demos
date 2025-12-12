@@ -15,10 +15,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <image mediaid="739167c7-ee49-4543-a1de-001246c32ee2" />
+    <image mediaid="356818aa-93e2-4510-bb99-4d25fae2ec23" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "77d180bf-9b1a-41ad-901d-d7658a76f376"
+  Value: "55bbed9b-bebf-4b10-896d-baf3a9edf426"
 Languages:
 - Language: en
   Versions:
@@ -37,7 +37,10 @@ Languages:
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
       Value: |
-        <div class="ck-content"><p><meta charset="utf-8" /><span style="white-space:pre-wrap;">You don’t have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and luxurious style and with premium quality materials</span></p></div>
+        <div class="ck-content"><p><meta charset="utf-8" /><span style="white-space:pre-wrap;">Our mission is to improve the lives of those we touch by focusing on practice care, so dental professionals can focus on patient care.
+        
+        Practice care is a combination of efficient solutions and integrated technologies designed to help you operate a productive practice, attain your business goals, and assist in the delivery of quality patient care.
+        </span></p></div>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -51,17 +54,17 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "80c5f4f3-a41e-4355-9c43-07db9932f111"
+      Value: "256747a2-08fc-4e5b-a00f-db450cfbe83b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251009T140415Z
+      Value: 20251212T153345Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
-      Value: We provide you  the best experience
+      Value: Practice Care Is Our Priority 
 - Language: "es-ES"
   Versions:
   - Version: 1

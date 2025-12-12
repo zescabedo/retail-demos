@@ -7,13 +7,13 @@ SharedFields:
 - ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
   Hint: Image
   Value: |
-    <image mediaid="399a3165-d906-4033-8db7-bb1b280a14e8" />
+    <image mediaid="f9ee6a6c-f40e-4f8f-84ee-736d994b53e7" />
 - ID: "d74790ee-7289-4a66-b921-71da75df6cde"
   Hint: Video
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "15b21afd-7e07-4598-bcf8-4dfb18ea9a44"
+  Value: "c39b2370-4bf7-47a2-aef5-a86b97605ed2"
 Languages:
 - Language: en
   Versions:
@@ -25,7 +25,7 @@ Languages:
     - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
       Hint: Description
       Value: |
-        <div class="ck-content"><p>A curated collection of modern pieces that blend elegance and functionality.</p></div>
+        <div class="ck-content"><p>Must use promo code <span style="color:hsl(90, 75%, 60%);"><strong>KJA</strong></span>&nbsp;<br />Offers Valid until 12/27/25&nbsp;</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250904T165442Z
@@ -39,17 +39,17 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8dc4d25c-a0da-4d01-9e9e-0e45615e1ebc"
+      Value: "b08cedb5-50ba-484f-b9ee-bea1b9f5ce9a"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
-      Value: Discover Design That Speaks to You
+      Value: "Special offers on top brands!"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103505Z
+      Value: 20251212T125253Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
