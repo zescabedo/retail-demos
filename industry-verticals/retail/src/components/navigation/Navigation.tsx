@@ -56,7 +56,8 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
   const isTopLevelPage = isNavLevel(fields, 1);
 
   const hasChildren = !!fields.Children?.length;
-  const isLogoRootItem = isRootItem && logoSrc;
+  // Always show logo for root items (using Henry Schein logo)
+  const isLogoRootItem = isRootItem;
   const hasDropdownMenu = hasChildren && isTopLevelPage;
 
   const clickHandler = (event: React.MouseEvent<HTMLElement>) => {
@@ -94,9 +95,9 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
           field={getLinkField(fields)}
           editable={page.mode.isEditing}
           onClick={clickHandler}
-          className="hover:text-foreground-light whitespace-nowrap transition-colors"
+          className="hover:text-accent text-foreground whitespace-nowrap transition-colors"
         >
-          {getLinkContent(fields, logoSrc)}
+          {getLinkContent(fields)}
         </Link>
         {hasDropdownMenu && (
           <button
@@ -173,7 +174,8 @@ export const Default = ({ params, fields }: NavigationProps) => {
   const preparedFields = prepareFields(fields, !isSimpleLayout);
   const rootItem = Object.values(preparedFields).find((item) => isNavRootItem(item));
   const logoSrc = extractMediaUrl(logoImage);
-  const hasLogoRootItem = rootItem && logoSrc;
+  // Always show logo for root items (using Henry Schein logo)
+  const hasLogoRootItem = !!rootItem;
 
   const navigationItems = Object.values(preparedFields)
     .filter((item): item is NavItemFields => !!item)
@@ -207,7 +209,7 @@ export const Default = ({ params, fields }: NavigationProps) => {
               !isSimpleLayout && '[.component.header_&]:mx-auto'
             )}
           >
-            {getLinkContent(rootItem!, logoSrc)}
+            {getLinkContent(rootItem!)}
           </Link>
         )}
         <HamburgerIcon
@@ -236,7 +238,7 @@ export const Default = ({ params, fields }: NavigationProps) => {
         <ul
           role="menubar"
           className={clsx(
-            'container flex flex-col items-center justify-center gap-x-8 gap-y-4 py-6 text-lg lg:flex-row xl:gap-x-16',
+            'container flex flex-col items-center justify-center gap-x-6 gap-y-4 py-6 text-base font-medium lg:flex-row lg:justify-start',
             isSimpleLayout && !hasLogoRootItem && 'lg:justify-end'
           )}
         >

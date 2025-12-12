@@ -1,5 +1,5 @@
 import React, { JSX } from 'react';
-import { User, Heart, ShoppingCart, X } from 'lucide-react';
+import { Heart, ShoppingCart, X } from 'lucide-react';
 import { ComponentProps } from '@/lib/component-props';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { useI18n } from 'next-localization';
@@ -13,6 +13,8 @@ export type NavigationIconsProps = ComponentProps & {
     CheckoutPage: LinkField;
     AccountPage: LinkField;
     WishlistPage: LinkField;
+    LoginPage?: LinkField;
+    CreateAccountPage?: LinkField;
   };
   params: { [key: string]: string };
 };
@@ -44,29 +46,30 @@ const IconDropdown = ({
 export const Default = (props: NavigationIconsProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const showWishlistIcon = !isParamEnabled(props.params.HideWishlistIcon);
-  const showAccountIcon = !isParamEnabled(props.params.HideAccountIcon);
   const showCartIcon = !isParamEnabled(props.params.HideCartIcon);
 
   const { t } = useI18n();
 
   return (
     <div className={`component navigation-icons ${props?.params?.styles?.trimEnd()}`} id={id}>
-      <div className="flex items-center gap-3 p-4 lg:gap-5 [.component.header_&]:justify-end [.component.header_&]:px-0">
-        {showAccountIcon && (
-          <IconDropdown icon={<User className="size-5" />} label="Account">
-            <p>{t('account-empty') || 'You are not logged in.'}</p>
-          </IconDropdown>
+      <div className="flex items-center gap-2 [.component.header_&]:justify-end [.component.header_&]:px-0">
+        {showCartIcon && (
+          <div className="relative">
+            <IconDropdown
+              icon={<ShoppingCart className="text-foreground h-6 w-6 md:h-8 md:w-8" />}
+              label="Cart"
+            >
+              <MiniCart showWishlist={showWishlistIcon} checkoutPage={props.fields?.CheckoutPage} />
+            </IconDropdown>
+            <span className="text-background absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-600 text-xs">
+              0
+            </span>
+          </div>
         )}
 
         {showWishlistIcon && (
           <IconDropdown icon={<Heart className="size-5" />} label="Wishlist">
             <p>{t('wishlist-empty') || 'Your wishlist is empty.'}</p>
-          </IconDropdown>
-        )}
-
-        {showCartIcon && (
-          <IconDropdown icon={<ShoppingCart className="size-5" />} label="Cart">
-            <MiniCart showWishlist={showWishlistIcon} checkoutPage={props.fields?.CheckoutPage} />
           </IconDropdown>
         )}
       </div>

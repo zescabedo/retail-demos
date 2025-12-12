@@ -78,23 +78,32 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const path = extractPath(context);
   let page;
 
-  if (context.preview && isDesignLibraryPreviewData(context.previewData)) {
-    page = await client.getDesignLibraryData(context.previewData);
-  } else {
-    page = context.preview
-      ? await client.getPreview(context.previewData)
-      : await client.getPage(path, { locale: context.locale });
-  }
-  if (page) {
-    props = {
-      page,
-      dictionary: await client.getDictionary({
-        site: page.siteName,
-        locale: page.locale,
-      }),
-      componentProps: await client.getComponentData(page.layout, context, components),
+  try {
+    if (context.preview && isDesignLibraryPreviewData(context.previewData)) {
+      page = await client.getDesignLibraryData(context.previewData);
+    } else {
+      page = context.preview
+        ? await client.getPreview(context.previewData)
+        : await client.getPage(path || '/', { locale: context.locale });
+    }
+    if (page) {
+      props = {
+        page,
+        dictionary: await client.getDictionary({
+          site: page.siteName,
+          locale: page.locale,
+        }),
+        componentProps: await client.getComponentData(page.layout, context, components),
+      };
+    }
+  } catch (error) {
+    console.error('Error fetching page data:', error);
+    // Return notFound if there's an error fetching the page
+    return {
+      notFound: true,
     };
   }
+
   return {
     props,
     // Next.js will attempt to re-generate the page:

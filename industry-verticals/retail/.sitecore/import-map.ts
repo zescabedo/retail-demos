@@ -23,7 +23,7 @@ import { Quote } from '@/assets/icons/quote/Quote';
 import { usePagination } from '@/hooks/usePagination';
 import { ProductCard } from '@/components/non-sitecore/ProductCard';
 import { Pagination as Pagination_25a2ac6977db7c44c4c657d8bc0b397259e5032a } from 'src/components/non-sitecore/Pagination';
-import { ChevronDown, Heart, Plus, ChevronLeft, ChevronRight, Star, User, X, Check, Loader2, ShoppingCart, Globe, MoreHorizontal, Home, ArrowRight } from 'lucide-react';
+import { ChevronDown, Heart, Plus, ChevronLeft, ChevronRight, Star, Search, User, X, Check, Loader2, ShoppingCart, Globe, Menu, ShoppingBag, Settings, MoreHorizontal, Home, ArrowRight } from 'lucide-react';
 import { calculateAverageRatingFromIGQL, calculateAverageRating } from '@/helpers/productUtils';
 import { ProductTabs } from 'src/components/non-sitecore/ProductTabs';
 import QuantityControl from 'src/components/non-sitecore/QuantityControl';
@@ -54,6 +54,7 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import { useRouter } from 'next/router';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from 'src/shadcn/components/ui/select';
 import { localeOptions } from '@/constants/localeOptions';
+import { SearchBar } from '@/components/non-sitecore/SearchBar';
 import { generateIndexes } from '@/helpers/generateIndexes';
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
@@ -221,12 +222,16 @@ const importMap = [
       { name: 'ChevronLeft', value: ChevronLeft },
       { name: 'ChevronRight', value: ChevronRight },
       { name: 'Star', value: Star },
+      { name: 'Search', value: Search },
       { name: 'User', value: User },
       { name: 'X', value: X },
       { name: 'Check', value: Check },
       { name: 'Loader2', value: Loader2 },
       { name: 'ShoppingCart', value: ShoppingCart },
       { name: 'Globe', value: Globe },
+      { name: 'Menu', value: Menu },
+      { name: 'ShoppingBag', value: ShoppingBag },
+      { name: 'Settings', value: Settings },
       { name: 'MoreHorizontal', value: MoreHorizontal },
       { name: 'Home', value: Home },
       { name: 'ArrowRight', value: ArrowRight },
@@ -430,6 +435,12 @@ const importMap = [
     module: '@/constants/localeOptions',
     exports: [
       { name: 'localeOptions', value: localeOptions },
+    ]
+  },
+  {
+    module: '@/components/non-sitecore/SearchBar',
+    exports: [
+      { name: 'SearchBar', value: SearchBar },
     ]
   },
   {

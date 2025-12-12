@@ -13,13 +13,15 @@ export const isNavRootItem = (fields: NavItemFields): boolean => {
   return isNavLevel(fields, 0) && !isFlatLevel;
 };
 
-export const getLinkContent = (fields: NavItemFields, logoSrc?: string): JSX.Element | string => {
+export const getLinkContent = (fields: NavItemFields): JSX.Element | string => {
   const isRootItem = isNavRootItem(fields);
 
-  if (isRootItem && logoSrc) {
+  // Always show Henry Schein logo for root items
+  if (isRootItem) {
     const altText =
-      fields.NavigationTitle?.value || fields.Title?.value || fields.DisplayName || '';
-    return <img src={logoSrc} alt={String(altText)} className="h-auto w-36" />;
+      String(fields.NavigationTitle?.value || fields.Title?.value || fields.DisplayName || '') ||
+      'Henry Schein Dental - Rely On Us';
+    return <img src="/images/henry-schein-logo.svg" alt={altText} className="h-8 w-auto md:h-10" />;
   }
 
   const textField = fields.NavigationTitle || fields.Title;
