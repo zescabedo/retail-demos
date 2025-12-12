@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "f6ec6b67-47c8-44a4-aac7-3b645e724758"
 Parent: "260cf295-7d6b-4e12-805c-2596ffd1c3d7"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -60,13 +60,13 @@ Languages:
       Value: 20251009T142342Z
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: Illuminate your space with Tertial, the versatile and stylish lamp designed for modern living. Perfect for any room, Tertial provides adjustable lighting to suit your needs and enhance your home's ambiance.
+      Value: Self-sealing sterilization pouches with built-in indicators.
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 29
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Tertial
+      Value: SterilMax Self-Seal Pouches
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -84,11 +84,10 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Tertial
+      Value: SterilMax Self-Seal Pouches
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251020T101924Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: |
-        <div class="ck-content"><p>Illuminate your space with the Tertial Lamp, a perfect blend of functionality and modern design that brings a warm, inviting atmosphere to any room. Crafted meticulously from high-quality materials, Tertial features an adjustable arm and head, allowing you to direct light precisely where you need it. Its sleek silhouette and minimalist aesthetic make it a versatile addition to both contemporary and classic interiors. Whether placed on your work desk, beside your reading chair, or on your bedside table, Tertial enhances your environment with its efficient lighting and elegant charm. With the Tertial Lamp, personalization meets practicality. Designed with ease in mind, the intuitive adjustment mechanism lets you seamlessly modify the lamp's height and angle to suit your activities, from focused work sessions to cozy reading evenings. The robust base ensures stability on any surface, while the energy-efficient bulb provides long-lasting, eco-friendly illumination that enhances your room's ambiance. Experience lighting that combines innovative engineering with timeless style—experience Tertial.</p></div>
+      Value: <p>Self-sealing sterilization pouches with built-in indicators.</p>

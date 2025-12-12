@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "1f4f7164-0f0c-4cab-8f44-7b7c85ad9c1a"
 Parent: "b94938e7-175e-42f4-95f6-d06aef4f27c7"
 Template: "5635eaab-28a6-4783-a10e-c4f9b1b99bba"
@@ -11,7 +11,7 @@ Languages:
     Value: "3984332c-5d8b-4b58-ae92-573070909d9e"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Chair
+    Value: Restorative Materials
   Versions:
   - Version: 1
     Fields:
@@ -38,7 +38,7 @@ Languages:
       Value: 20250922T103327Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Chair
+      Value: Restorative Materials
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -66,7 +66,7 @@ Languages:
       Value: 20250925T124414Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Silla
+      Value: Materiales Restauradores
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -94,4 +94,4 @@ Languages:
       Value: 20250925T123207Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Chaise
+      Value: Matériaux Restaurateurs

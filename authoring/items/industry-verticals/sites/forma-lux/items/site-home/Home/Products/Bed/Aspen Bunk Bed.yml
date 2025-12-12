@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "620c4b27-d8d4-474a-a223-cf4f92cb34e4"
 Parent: "16807766-6013-4944-9550-ebc3216ad248"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -74,7 +74,7 @@ Languages:
       Value: 748.99
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Aspen Bunk Bed
+      Value: ProClean Prophy Paste Pack
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -92,7 +92,7 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Aspen Bunk Bed
+      Value: ProClean Prophy Paste Pack
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251203T143340Z

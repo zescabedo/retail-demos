@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "53da2329-23e7-459f-a810-a057a8ad646b"
 Parent: "b94938e7-175e-42f4-95f6-d06aef4f27c7"
 Template: "5635eaab-28a6-4783-a10e-c4f9b1b99bba"
@@ -31,7 +31,7 @@ Languages:
       Value: 20250923T145119Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Sofa
+      Value: Impression Materials & Accessories
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -59,7 +59,7 @@ Languages:
       Value: 20250925T123303Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Sofá
+      Value: Materiales de Impresión y Accesorios
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -87,4 +87,4 @@ Languages:
       Value: 20250925T123244Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Canapé
+      Value: Matériaux d'Empreinte et Accessoires

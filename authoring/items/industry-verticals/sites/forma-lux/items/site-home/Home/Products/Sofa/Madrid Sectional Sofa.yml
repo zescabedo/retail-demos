@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "02b85f2c-098f-4736-95ea-bd8776beeca2"
 Parent: "078d4751-d125-408a-9ff2-f5417844b877"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -69,13 +69,13 @@ Languages:
       Value: 20251016T130943Z
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A spacious sectional sofa with a chaise lounge.
+      Value: Rigid, autoclavable tray for high-accuracy impressions.
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 1499
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Madrid Sectional Sofa
+      Value: ProTray Stainless Steel Full Arch Tray
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -93,7 +93,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Madrid Sectional Sofa
+      Value: ProTray Stainless Steel Full Arch Tray
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251017T154206Z

@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "2dbcda2d-ff88-46c1-a3f2-f21a34e30661"
 Parent: "b94938e7-175e-42f4-95f6-d06aef4f27c7"
 Template: "5635eaab-28a6-4783-a10e-c4f9b1b99bba"
@@ -59,7 +59,7 @@ Languages:
       Value: 20250925T123415Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Lámpara
+      Value: Esenciales de Control de Infecciones
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -87,4 +87,4 @@ Languages:
       Value: 20250925T123220Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Lampe
+      Value: Essentiels de Contrôle des Infections

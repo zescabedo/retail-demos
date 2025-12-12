@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "dc635359-2002-438a-81c9-605141aa1ce3"
 Parent: "8dd59d14-31a7-4b85-a547-77b03c68ac32"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -126,13 +126,13 @@ Languages:
       Value: 20250923T122113Z
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: Setting the standard as a leader in modern seating, the Baltsar Chair combines elegance with ergonomic excellence. Its sleek design and superior comfort make it a standout piece in any space.
+      Value: Nano-hybrid composite designed for broad restorative applications.
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 392
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Baltsar Chair
+      Value: OptiFill Universal Composite
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -150,13 +150,13 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Baltsar Chair
+      Value: OptiFill Universal Composite
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251121T112224Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>Exuding modern sophistication, the Baltsar Chair effortlessly combines sleek design with unparalleled comfort. Its ergonomic structure ensures superior support, making it a perfect addition to both contemporary and classic interiors. </p><p>Crafted with precision, the Baltsar Chair features a durable frame and high-quality upholstery that promise long-lasting use. Its elegant contours not only add a touch of luxury but also provide a welcoming embrace that invites you to sit and unwind. Ideal for any setting, the Baltsar Chair is more than just a seat; it's an invitation to experience style and relaxation like never before.</p>"
+      Value: "<p>Nano-hybrid composite designed for broad restorative applications.</p>"
 - Language: "es-ES"
   Versions:
   - Version: 1

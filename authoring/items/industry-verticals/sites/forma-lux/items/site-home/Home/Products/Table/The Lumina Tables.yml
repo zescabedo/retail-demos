@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "2893d2fd-b6ec-4536-992c-0141c7613d1c"
 Parent: "e4781112-53e6-409c-a1e6-29ffde3a61bb"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -40,7 +40,7 @@ Languages:
       Value: 632
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: The Lumina Tables
+      Value: UltraBlock Articaine 4% with Epinephrine
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -58,7 +58,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: The Lumina Tables
+      Value: UltraBlock Articaine 4% with Epinephrine
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251128T094807Z

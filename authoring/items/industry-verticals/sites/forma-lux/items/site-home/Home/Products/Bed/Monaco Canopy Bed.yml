@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "bfedc77e-fbd0-4e29-b183-b7a6017820b7"
 Parent: "16807766-6013-4944-9550-ebc3216ad248"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -67,13 +67,13 @@ Languages:
       Value: 20251016T130435Z
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A romantic canopy bed with a sleek metal frame.
+      Value: Ergonomic disposable angles designed for reliable performance.
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 1099
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Monaco Canopy Bed
+      Value: BrightLine Disposable Prophy Angles
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -91,10 +91,10 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Monaco Canopy Bed
+      Value: BrightLine Disposable Prophy Angles
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251201T114920Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: <p>The Monaco Canopy Bed brings elegance and charm to your bedroom. Its slim metal frame supports flowing drapes, creating a cozy and intimate atmosphere. Perfect for those who love a touch of drama in their interiors.</p>
+      Value: <p>Ergonomic disposable angles designed for reliable performance.</p>

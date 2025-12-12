@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "4d01f6a1-9fbe-4d57-8c03-08cada0704ea"
 Parent: "16807766-6013-4944-9550-ebc3216ad248"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -66,13 +66,13 @@ Languages:
       Value: 20251016T130117Z
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: "A minimalist platform bed with a low-profile design"
+      Value: Disposable syringes for controlled irrigation during hygiene procedures.
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 899.5
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Siena Platform Bed
+      Value: AquaRinse Irrigation Syringes
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -90,10 +90,10 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Siena Platform Bed
+      Value: AquaRinse Irrigation Syringes
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251017T151748Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Siena Platform Bed features clean lines and a solid wood frame, making it ideal for modern interiors. Its low-profile design eliminates the need for a box spring, while the slatted base provides excellent mattress support.</p>"
+      Value: "<p>Disposable syringes for controlled irrigation during hygiene procedures.</p>"

@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "19e261ce-e602-4577-8df2-ed75a6427cef"
 Parent: "078d4751-d125-408a-9ff2-f5417844b877"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -66,13 +66,13 @@ Languages:
       Value: 20251016T131147Z
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A luxurious velvet sofa with deep button tufting.
+      Value: Fast-set alginate formulated for smooth mixing and accurate impressions.
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 1299
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Florence Velvet Sofa
+      Value: HydroCast Alginate
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -90,10 +90,10 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Florence Velvet Sofa
+      Value: HydroCast Alginate
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251017T153905Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Florence Velvet Sofa exudes sophistication with its Chesterfield-inspired design. Upholstered in rich velvet, it features rolled arms, deep tufting, and a sturdy hardwood frame.</p>"
+      Value: <p>Fast-set alginate formulated for smooth mixing and accurate impressions.</p>

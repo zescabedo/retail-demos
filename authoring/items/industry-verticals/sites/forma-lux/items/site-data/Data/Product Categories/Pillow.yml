@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "d9a471b6-e783-4dee-b48b-06b57a6735e1"
 Parent: "b94938e7-175e-42f4-95f6-d06aef4f27c7"
 Template: "5635eaab-28a6-4783-a10e-c4f9b1b99bba"
@@ -31,7 +31,7 @@ Languages:
       Value: 20250923T144959Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Pillow
+      Value: Medical & Exam Gloves
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -59,7 +59,7 @@ Languages:
       Value: 20250925T123405Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Almohada
+      Value: Guantes Médicos y de Examen
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -87,4 +87,4 @@ Languages:
       Value: 20250925T123231Z
     - ID: "fe0c006b-d8ca-442a-943a-566a619d913c"
       Hint: CategoryName
-      Value: Oreiller
+      Value: Gants Médicaux et d'Examen

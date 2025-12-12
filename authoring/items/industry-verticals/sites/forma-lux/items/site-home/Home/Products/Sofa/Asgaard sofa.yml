@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "683a4c94-17a8-4c36-93ae-cdd2c60b1fb2"
 Parent: "078d4751-d125-408a-9ff2-f5417844b877"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -136,13 +136,13 @@ Languages:
       Value: 76 cm
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound."
+      Value: Heavy-body VPS designed for tray-based impressions.
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 2499.56
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Asgaard sofa
+      Value: ImpressFlow VPS Heavy Body
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -175,7 +175,7 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Asgaard sofa
+      Value: ImpressFlow VPS Heavy Body
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251121T073811Z

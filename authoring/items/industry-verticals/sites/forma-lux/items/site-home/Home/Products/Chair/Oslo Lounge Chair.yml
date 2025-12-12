@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "c14b40a5-1c7c-4f24-bdf2-961fb24462e4"
 Parent: "8dd59d14-31a7-4b85-a547-77b03c68ac32"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -64,13 +64,13 @@ Languages:
       Value: 20251016T124722Z
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: "A Scandinavian-inspired lounge chair with a sleek wooden frame and plush cushions."
+      Value: Stainless-steel instruments for composite placement and shaping.
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 349.99
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Oslo Lounge Chair
+      Value: CarveRight Instrument Set
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -88,10 +88,10 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Oslo Lounge Chair
+      Value: CarveRight Instrument Set
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251017T155007Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: <p>The Oslo Lounge Chair blends minimalist Nordic design with modern comfort. Crafted from solid oak and upholstered in premium linen, it offers a timeless silhouette that fits seamlessly into any living space. Its ergonomic backrest and deep seat make it perfect for long hours of relaxation.</p>
+      Value: <p>Stainless-steel instruments for composite placement and shaping.</p>

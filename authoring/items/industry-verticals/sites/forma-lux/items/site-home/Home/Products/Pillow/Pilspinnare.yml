@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "861e20cd-4a19-416f-9818-e9ddf8e985d9"
 Parent: "95692043-df4d-4e60-9271-511be5096297"
 Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
@@ -90,13 +90,13 @@ Languages:
       Value: 20250922T091111Z
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A soft cotton pillow with a perfectly plump 90% feather filling. The materials allow air to circulate, so you get a comfortable sleeping environment. The low loft is comfiest for stomach sleepers.
+      Value: Powder-free nitrile gloves offering reliable barrier protection.
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
       Value: 15
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Pilspinnare
+      Value: FlexSafe Nitrile Exam Gloves
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -120,7 +120,7 @@ Languages:
       Value: 20251020T101946Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>Discover unparalleled comfort with our premium soft cotton pillow. Each pillow is meticulously crafted with a generous filling composed of 90% high-quality feathers, designed to gently contour to the unique shape of your head and neck. This ensures that you achieve a genuinely restful and uninterrupted sleep.&nbsp;</p><p>The use of breathable materials in its design guarantees exceptional air circulation, keeping the pillow cool and offering a refreshing sleep environment all night long. Tailored with a low loft, this pillow provides ideal support, particularly for stomach sleepers who seek maximum comfort without any added strain on their neck or spine.</p>"
+      Value: <p>Powder-free nitrile gloves offering reliable barrier protection.</p>
 - Language: "es-ES"
   Versions:
   - Version: 1
